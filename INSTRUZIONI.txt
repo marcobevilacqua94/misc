@@ -16,4 +16,4 @@ source ~/.bashrc
 
 #esecizione dello script di esempio, riportato nella mail come allegato
 wget https://github.com/marcobevilacqua94/misc/raw/main/CBPythonExample.py
-python3 CBPythonExample.py
+python3 CBLitePyjnius.py
