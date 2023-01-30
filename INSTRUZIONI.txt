@@ -14,5 +14,6 @@ unzip /tmp/couchbase-lite-java-ee-3.0.5.zip -d .
 echo 'export LD_LIBRARY_PATH=/root/couchbase-lite-java-ee-3.0.5-1/support/linux/x86_64/libc++:/root/couchbase-lite-java-ee-3.0.5-1/support/linux/x86_64/libicu:$LD_LIBRARY_PATH' >> ~/.bashrc
 source ~/.bashrc
 
-#esecizione dello script di esempio, da copiare dall'allegato mail
-python3 cbLiteExample.py
+#esecizione dello script di esempio, riportato nella mail come allegato
+wget https://github.com/marcobevilacqua94/misc/raw/main/CBPythonExample.py
+python3 CBPythonExample.py
